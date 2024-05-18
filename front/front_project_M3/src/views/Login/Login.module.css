@@ -1,0 +1,165 @@
+.loginForm{
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    /* height: px; */
+    padding: 20px;
+    width: 100vh;
+    box-shadow: 0 0 1000px black;
+    height: fit-content;
+}
+
+.title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    /* margin-top: px; */
+}
+
+.subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-bottom: 0.7em;
+}
+
+.inputContainer{
+    height: 60px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+
+.cut {
+    background-color: #15172b;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 90%;
+}
+
+
+.cut-short {
+    width: 50px;
+}
+
+.iLabel {
+    color: #65657b;
+    font-family: sans-serif;
+    right: 230px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+}
+
+.input:focus ~ .cut {
+    transform: translateY(8px);
+}
+
+.input:focus ~ .iLabel {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:focus) ~ .iLabel {
+    color: #808097;
+}
+
+.input:focus ~ .iLabel {
+    color: #0004ff;
+}
+
+.submit {
+    --glow-color: rgb(0, 123, 255); /* Un tono más claro basado en #007BFF */
+    --glow-spread-color: rgba(10, 131, 255, 0.781); /* Un tono similar con transparencia */
+    --enhanced-glow-color: rgb(102, 178, 255); /* Un tono pastel más suave para contrastar */
+    --btn-color:  #15172b; /* Un tono más oscuro para el botón */
+    border: .15em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 0.5em .125em var(--glow-color),
+        0 0 2em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    margin-top: 20px;
+    width: 75%;
+    font-size: large;
+}
+
+.submit::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.submit:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+.submit:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+
+.cutError {
+    background-color: #ff2f2f;
+    border-radius: 10px;
+    height: 18px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 90%;
+}
+
+
+.cutError-short {
+    width: 50px;
+}
+
+.input:focus ~ .cutError {
+    transform: translateY(8px);
+}

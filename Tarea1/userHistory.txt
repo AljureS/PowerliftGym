@@ -1,0 +1,25 @@
+1. Client wants to register and create a new account
+    -He pust his Full name 
+    -Date of birth 
+    -Gender 
+    -user name 
+    -pasword
+2. User wants to Log in with his/her new credentials
+    - User put his user name and password 
+3. Logged in user wants to book a tarot reading appt
+    -Goes to section book appt 
+    - Fill forms:
+        .Date
+        .Time
+4. User books an appt 
+5. User want check he got an email with the apppt confirmation 
+    -User agrees to recive email / input slot 
+6. User wants to check the appt was booked in the system 
+    - Goes to appts booked 
+7. The user wants to cancel an already confirmed appt
+    - In appts booked slect the cancel button 
+    
+8. The user wants to cpmplete his profile by adding a picture 
+    - user uploads a photo 
+    
+

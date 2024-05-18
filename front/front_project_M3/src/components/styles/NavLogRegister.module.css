@@ -1,0 +1,30 @@
+/* NavLogRegister.module.css */
+.navContainer {
+    position: fixed; /*Posiciona el contenedor de manera fija */
+    top: 0; /* Alinea la parte superior con el borde superior de la ventana del navegador */
+    right: 0; /* Alinea el contenedor con el borde derecho de la ventana del navegador */
+    width: 150px; /* Establece el ancho del contenedor de la barra de navegación */
+    height: auto;
+    background-color: #007bffde; /* Establece un color de fondo (cambia esto según tu diseño) */
+    box-shadow: -5px 0 5px -5px #333; /* Agrega una sombra para mejorar la visibilidad */
+}
+
+ul {
+    list-style-type: none; /* Elimina los marcadores de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 20px 0; /* Agrega un margen vertical para separar la lista del borde */
+}
+
+li {
+    padding: 8px; /* Agrega un padding a cada ítem para aumentar la área clickable */
+}
+
+li:hover  {
+    font-weight: bold; /* Agrega un padding a cada ítem para aumentar la área clickable */
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: black; /* Establece el color de los enlaces */
+    display: block; /* Hace que los enlaces llenen el espacio de los <li> */
+}

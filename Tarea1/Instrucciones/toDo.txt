@@ -1,0 +1,19 @@
+Para encarar este proyecto partiremos de algunas pautas y simplificaciones:
+
+    Tú decides de qué lugar se trata: un banco, una peluquería, un restaurant, un consultorio médico, etc. Tendrás libertad para esta elección y luego la temática deberá verse reflejada en el diseño de tu aplicación de Frontend.
+
+    Un usuario siempre debe estar autenticado para poder reservar un turno. No se agendará turnos a anónimos o invitados. 
+
+    Los turnos deberán ser agendados siempre dentro del horario de atención del establecimiento, el cual también estará en tus manos decidir cuál es. También deberás tener en cuenta los fines de semana como días no laborables. 
+
+    Asumimos que el establecimiento cuenta con “infinitos” recursos para atender a sus clientes. Es decir, si 10, 20, 50 o 100 usuarios agendaron un turno para las 10:00hs del día 11/12/24, asumimos que el lugar cuenta con capacidad para poder atenderlos a todos al mismo tiempo en este horario. 
+
+    Los turnos reservados por los usuarios pueden ser cancelados hasta el día anterior al día de la reserva. No implementaremos la función de reprogramar. 
+
+
+
+Asimismo, definiremos una serie de EXTRA-CREDITS, los cuales podrás incluir en tu proyecto en las cantidades y tiempos que estén dentro de tus posibilidades:
+
+    Envío de confirmación vía email al usuario luego de reservar un turno o cancelarlo.
+
+    Posibilidad de que el usuario “suba” una foto perfil a su cuenta a través de un archivo de imagen (.jpg, .png, etc).

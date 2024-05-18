@@ -1,0 +1,50 @@
+/* NavBar.module.css */
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    left: -250px; /* Inicialmente oculto */
+    top: 0;
+    background-color:#343A40;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: left 0.3s; /* Suaviza la transición */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.open {
+    
+    left: 0; /* Mueve el sidebar para mostrarlo */
+}
+
+ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el padding por defecto */
+}
+
+.link {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.link:hover {
+    background-color: #555;
+}
+
+.toggleButton {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; /* Asegura que el botón esté siempre visible */
+}
