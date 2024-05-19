@@ -18,8 +18,8 @@ Welcome to the Powerlift Gym project repository, a fullstack web application des
  - ORM: TypeORM for database communication
 
 ## Contact Information:
-Email: your-email@example.com
-LinkedIn: your-linkedin-profile
+ - Email: saidsimon2@gmail.com
+ - LinkedIn: www.linkedin.com/in/ing-fullstack-said-aljure-8a0b07179
 
 ## Getting Started 🚀
 ### Prerequisites
