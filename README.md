@@ -12,9 +12,8 @@ Welcome to the Powerlift Gym project repository, a fullstack web application des
  - State Management: Redux
 
 ### Backend:
- - Server: Node.js with TypeScript and Express
- - Database:
- - Type: PostgreSQL
+ - Server: Node.js with TypeScript and ExpressJS
+ - Databse type: PostgreSQL
  - ORM: TypeORM for database communication
 
 ## Contact Information:
