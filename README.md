@@ -18,7 +18,7 @@ Welcome to the Powerlift Gym project repository, a fullstack web application des
 
 ## Contact Information:
  - Email: saidsimon2@gmail.com
- - LinkedIn: www.linkedin.com/in/ing-fullstack-said-aljure-8a0b07179
+ - [LinkedIn](https://www.linkedin.com/in/webdeveloper-saljure/)
 
 ## Getting Started 🚀
 ### Prerequisites
